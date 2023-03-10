@@ -39,6 +39,31 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
           </Link>
         </div>
       </nav>
+      <nav className="bg-[#181818] flex justify-center px-10 border-t-2">
+        <div className="px-2 py-1 flex">
+          <div className="p-2 border-r-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Fiction</h3>
+          </div>
+          <div className="p-2 border-r-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Non-Fiction</h3>
+          </div>
+          <div className="p-2 border-r-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Horror</h3>
+          </div>
+          <div className="p-2 border-r-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Crime</h3>
+          </div>
+          <div className="p-2 border-r-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Biography</h3>
+          </div>
+          <div className="p-2 border-r-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Graphic Novels</h3>
+          </div>
+          <div className="p-2">
+      <h3 className="text-white hover:text-[#712EFF] cursor-pointer">Manga</h3>
+          </div>
+        </div>
+      </nav>
     </header>
   );
 };
