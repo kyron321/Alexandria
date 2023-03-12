@@ -5,8 +5,7 @@ const Layout: React.FC = () => {
   return (
     <>
       <Header title="ALEXANDRIA" />
-      <div className="overflow-scroll h-screen">
-
+      <div>
         <p>Filler</p>
         <p>Filler</p>
         <p>Filler</p>
@@ -42,6 +41,7 @@ const Layout: React.FC = () => {
         <p>Filler</p>
         <p>Filler</p>
         <p>Filler</p>
+        
       </div>
 
       <Footer />
