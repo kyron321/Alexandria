@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BsCartFill } from "react-icons/bs";
 import { BsFillStarFill } from "react-icons/bs";
-import { GoSearch } from "react-icons/go";
+import Input from "./Input";
 
 type HeaderProps = {
   title: string;
@@ -17,11 +17,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
           </div>
         </Link>
         <div className="flex items-center justify-center">
-          <input
-            type="text"
-            placeholder="Search"
-            className="w-[440px] h-10 rounded"
-          />
+        <Input type="secondary" placeholder="Search for a book"/>
         </div>
         <div
           className="flex gap-3"
