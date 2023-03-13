@@ -13,7 +13,7 @@ export default function register() {
         </div>
         </Link>
       <div className=" flex flex-row items-center ">
-        <div className=" bg-[#181818] flex flex-col justify-center items-center w-[1/2] h-screen gap-7">
+        <div className=" bg-[#181818] flex flex-col justify-center items-center w-1/2 h-screen gap-7">
           <h1 className="text-white text-5xl font-medium cursor-default">
             Welcome to Alexandria
           </h1>
