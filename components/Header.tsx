@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
         <div
           className="flex gap-3"
         >
-          <Link href={"/register"}> 
+          <Link href={"/login"}> 
           <button className=" w-[193px] h-16 not-italic font-[500] text-xl text-[#FFFFFF]">
             Sign in / Register
           </button>

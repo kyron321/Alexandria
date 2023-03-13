@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="w-5/6 bg-[#BCBCBC] h-px mx-auto center-horizontal "></div>
       <div className="text-gray-200 text-xs first-line:text-center flex items-center justify-center pt-6 space-x-2">
-        <Input type="text" placeholder="Sign up for more deals and offers" />
+        <Input type="primary" placeholder="Sign up for more deals and offers" />
         <Button title="Subscribe" size="small" />
         <a href="https://en-gb.facebook.com/" target="_blank">
         <img src={facebook.src} alt="facebook logo" className="cursor-pointer"/>
